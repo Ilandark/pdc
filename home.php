@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Prueba de Hosting<h1>
+    <h1>Prueba de Hosting 2<h1>
 </body>
 </html>
