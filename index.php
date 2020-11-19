@@ -11,12 +11,13 @@
 
 <body>
     <h1>Rompi la pagina XD</h1>
-    <div class="clear"></div>
+    <div class="clear"> Espacio :v</div>
     <a>Se repará en un futuro algo lejano xd</a>
+    <p>Fuente we creeme
 
     <div class="clear"></div>
 
-    <footer align="center">Copyright <a href="" target="https://www.facebook.com/profile.php?id=100010998936505" sit>YourSite</a>. All rights reserved.</footer>
+    <footer align="center">Copyright <a href="https://www.facebook.com/profile.php?id=100010998936505" target="_blank" sit>YourSite</a>. All rights reserved.</footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
