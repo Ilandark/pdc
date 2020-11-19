@@ -2,87 +2,230 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="style.css" media="all" rel="stylesheet" type="text/css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>One Page Wonder - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="main">
-        <!-- Image and text 
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Bootstrap
-        </a>
-    </nav>-->
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#">
-                    <span>Secretaria de Desarrollo Económico, Turistico y Atracción de Inversiones</a></span>
-            </nav>
-        </header>
 
-        <FONT FACE="impact" SIZE=5 color="black">SECRETARIA</FONT>
-        <FONT FACE="impact" SIZE=6 color="black">
-            DESARROLLO ECONÓMICO, TURISTICO Y ATRACCIÓN DE INVERSIONES</FONT>
-
-        <!--CARRUSEL FUNCIONAL
-        <div class="jumbotron">
-            <div class="container">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/Anuncios/QEC-ST2.png" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="/img/Anuncios/QEC-ST3.png" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="/img/Anuncios/QEC-ST4.png" alt="Third slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div> END DE CARRUSEL-->
-    </div>
-    <aside>
-        <div class="asided">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Objetivo General</a>
-                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Misión</a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Visión</a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Logo!! Visor Solidario</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign 5</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </aside>
-    <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-            <a>Impulsar la promoción turística y el desarrollo económico sostenible del municipio de Solidaridad, a través de implementar políticas y programas que nos permitan la inversión económica, de comercio, de servicios, de industria, artesanales y producción
-            sostenible, y todas aquellas relacionadas con la creación y conservación de los empleos.</a></div>
-        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-            <a>Conducir al municipio de Solidaridad a fortalecer el desarrollo de la actividad turística y económica, así como promover la atracción de inversiones nacionales y extranjeras; contribuyendo al crecimiento sustentable e incluyente. De igual manera buscar
-            la facilitación de procesos que generen certidumbre y la generación de empleo e impulsar a la calidad de los servicios con la participación de organismos empresariales apegados al marco regulatorio municipal.</a></div>
-        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-            <a>El municipio de Solidaridad se posiciona como una potencia turística a nivel global, con una oferta diversificada de servicios, por ser un destino competitivo, la actividad turística detonara la inversión y el crecimiento económico, impulsando el desarrollo
-            productivo equilibrado, a través de la vinculación directa y permanente del sector empresarial, privilegiando la creación de más y mejores empleos, apegado al marco regulatorio municipal. Una posición de liderazgo regional en materia de
-            competitividad y productividad, bajo un modelo económico incluyente bajo un clima de inversión caracterizado por la estabilidad de un gobierno ágil, diligente, simple y transparente.</a></div>
+    </nav>
+
+    <header id="head" class="masthead text-center text-white">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <a href="#">
+                        <picture>
+                            <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                            <!--<source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
+                            <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">-->
+                            <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                        </picture>
+
+                        <div class="carousel-caption">
+                            <div>
+                                <h2>title example 1</h2>
+                                <p>description example 1</p>
+                                <span class="btn btn-sm btn-outline-secondary">Learn More</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.carousel-item -->
+                <div class="carousel-item">
+                    <a href="#">
+                        <picture>
+                            <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                            <!--<source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
+                            <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">-->
+                            <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                        </picture>
+
+                        <div class="carousel-caption justify-content-center align-items-center">
+                            <div>
+                                <h2>title example 2</h2>
+                                <p>description example 2</p>
+                                <span class="btn btn-sm btn-outline-secondary">Our Process</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.carousel-item -->
+                <div class="carousel-item">
+                    <a href="https://bootstrapcreative.com/">
+                        <picture>
+                            <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                            <!--<source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
+                            <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">-->
+                            <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                        </picture>
+
+                        <div class="carousel-caption justify-content-center align-items-center">
+                            <div>
+                                <h2>title example 3</h2>
+                                <p>description example 3</p>
+                                <span class="btn btn-sm btn-secondary">Learn How</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.carousel-item -->
+            </div>
+            <!-- /.carousel-inner -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--<div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>-->
+    </header>
+    <div class="wrapper">
+        <p id="item-1" class="item-box">
+            item 1
+        </p>
+
+        <p id="item-2" class="item-box">
+            item 2
+        </p>
+        <p id="item-4" class="item-box">
+            item 3
+        </p>
+        <p id="item-4" class="item-box">
+            item 4
+        </p>
+        <p id="item-5" class="item-box">
+            item 5
+        </p>
     </div>
+    <!--<div class="contenedor">
+        <div class="pictures" style="background-color: #007aeb;"></div>
+        <div class="pictures" style="background-color: #007aeb;"></div>
+        <div class="pictures" style="background-color: #007aeb;"></div>
+        <div class="pictures" style="background-color: #007aeb;"></div>
+        <div class="pictures" style="background-color: #007aeb;"></div>
+    </div>-->
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
 
-    <div class="clear"></div>
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="https://dummyimage.com/600x500/007aeb/4196e5" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">For those about to rock...</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer align="center">Copyright <a href="" target="_blank" sit>YourSite</a>. All rights reserved.</footer>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="https://dummyimage.com/600x500/007aeb/4196e5" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">We salute you!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="https://dummyimage.com/600x500/007aeb/4196e5" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">Let there be rock!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-black">
+        <div class="container">
+            <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2020</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
 </html>
