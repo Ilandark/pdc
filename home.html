@@ -14,13 +14,13 @@
 <body>
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
-        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-            <a href="#home" class="w3-bar-item w3-button">
-                <b>SECRETARIA DE </b>DESARROLLO ECONÓMICO Y DE ATRACCIONES DE INVERSIONES</a>
-            <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-bar w3-wide w3-padding w3-card" style="background-color: #0F1630">
+            <a href="#home" class="w3-bar-item w3-button" style="color: white;">
+                <b style="color: white;">SECRETARIA DE</b> DESARROLLO ECONÓMICO Y DE ATRACCIONES DE INVERSIONES</a>
+            <!-- Float links to the right. Hide them on small screens w3-hide-small -->
             <div class="w3-right w3-hide-small">
-                <a href="#projects" class="w3-bar-item w3-button">Áreas</a>
-                <a href="#about" class="w3-bar-item w3-button">Información</a>
+                <a href="#projects" class="w3-bar-item w3-button" style="color: white;">Áreas</a>
+                <a href="#about" class="w3-bar-item w3-button" style="color: white;">Información</a>
                 <!--<a href="#contact" class="w3-bar-item w3-button">Contact</a>-->
             </div>
         </div>
@@ -28,7 +28,7 @@
 
     <!-- Header -->
     <header class="w3-display-container w3-content w3-wide w3-padding-32" style="max-width:1500px;" id="home">
-        <img class="w3-image w3-padding-24" src="img/PalaDR.jpg" alt="Architecture" width="1500" height="800">
+        <img class="w3-image w3-padding-16 w3-hide-small" src="img/PalaDR.jpg" alt="Architecture" width="1500" height="800">
         <div class="w3-display-middle w3-margin-top w3-center ">
             <h1 class="w3-xxlarge w3-text-white w3-padding-16 w3-hide-small">
                 <span class="w3-padding w3-black w3-opacity-med"><b>SECRETARIA DE</b></span>
@@ -37,13 +37,13 @@
     </header>
 
     <!-- Page content -->
-    <div class="w3-padding-32">
-        <h2 class="w3-container w3-padding w3-center" id="about">
+    <div class="w3-padding-32 w3-margin-top w3-animate-zoom">
+        <h2 class="w3-container w3-margin-top w3-padding w3-center" id="about">
             Información</h2>
     </div>
     <div class="w3-content w3-padding-32" style="max-width:1564px">
 
-        <div class="w3-container w3-light-grey">
+        <div class="w3-container w3-light-grey" style="height: 250px;">
 
             <div class="w3-bar w3-black" style="padding: 0.5%;">
                 <button class="w3-bar-item w3-button" style="width: 33.3%;" onclick="openCity('Objectivo')">Objectivo General</button>
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div id="Misión" class="w3-container city w3-center w3-animate-bottom" style="display:none">
+            <div id="Misión" class="w3-container city w3-center w3-animate-zoom" style="display:none">
                 <h2>Misión</h2>
                 <div class=" w3-container w3-justify">
                     <p>Conducir al municipio de Solidaridad a fortalecer el desarrollo de la actividad turística y económica, así como promover la atracción de inversiones nacionales y extranjeras; contribuyendo al crecimiento sustentable e incluyente. De
@@ -113,53 +113,71 @@
         </div>
 
         <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom" style="width: 33.3%;">
+            <div class="w3-col l4 6m w3-margin-bottom">
                 <div class="w3-display-container hvr-curl-top-right">
-                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 250px;">Industria y Comercio</div>
+                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 100%;">
+                        <a class="w3-button" style="width: 100%;">Industria y Comercio</a>
+
+                    </div>
                     <img src="img/example/house2.jpg" alt="House" style="width:100%">
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom" style="width: 33.3%;">
-                <div class="w3-display-container hvr-curl-top-right">
-                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 250px;">Unidad de Mejora Regulatoria</div>
+            <div class="w3-col l4 m6 w3-margin-bottom ">
+                <div class="w3-display-container hvr-curl-top-right ">
+                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding " style="width: 100%;">
+                        <a class="w3-button" style="width: 100%;">Unidad de Mejora Regulatoria</a>
+                    </div>
                     <img src="img/example/house3.jpg" alt="House" style="width:100%">
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom" style="width: 33.3%;">
+            <div class="w3-col l4 m6 w3-margin-bottom">
                 <div class="w3-display-container hvr-curl-top-right">
-                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 250px;">Coordinación del Trabajo y Promoción del Empleo</div>
-                    <img src="img/example/house4.jpg" alt="House" style="width:100%">
+                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 100%;">
+                        <a class="w3-button" style="width: 100%;">Coordinación del Trabajo y Promoción del Empleo</a>
+                    </div>
+                    <img src="img/example/house4.jpg " alt="House " style="width:100% ">
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding">
+            <div class="w3-col l4 6m w3-margin-bottom">
+                <div class="w3-display-container hvr-curl-top-right">
+                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 100%;">
+                        <a class="w3-button" href="AtracciónI.html" style="width: 100%;">Atracción de Inversiones</a>
+                    </div>
+                    <img src="img/example/house2.jpg" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom ">
+                <div class="w3-display-container hvr-curl-top-right ">
+                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding " style="width: 100%;">
+                        <a class="w3-button" style="width: 100%;">Desarrollo Agropecuario y Pesquero</a>
+                    </div>
+                    <img src="img/example/house3.jpg" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom">
+                <div class="w3-display-container hvr-curl-top-right">
+                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 100%;">
+                        <a class="w3-button" href="MercadosM.html" style="width: 100%;">Mercados Municipales</a>
+                    </div>
+                    <img src="img/example/house4.jpg " alt="House " style="width:100% ">
                 </div>
             </div>
         </div>
 
-        <did class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom" style="width: 33.3%;">
-                <div class="w3-display-container hvr-curl-top-right">
-                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 250px;">
-                        <a target="_top" href="AtracciónI.html" class="w3-button w3-block w3-black">Atracción de Inversiones</a></div>
-                    <img src="img/example/house5.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom hidden-print" style="width: 33.3%;">
-                <div class="w3-display-container hvr-curl-top-right">
-                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 250px;">Desarrollo Agropecuario y Pesquero</div>
-                    <img src="img/example/house4.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom" style="width: 33.3%;">
-                <div class="w3-display-container hvr-curl-top-right">
-                    <div class="w3-display-bottommiddle w3-center w3-black w3-padding" style="width: 250px;"><a href="MercadosM.html" class="w3-button w3-block w3-black">Mercados Municipales</a></div>
-                    <img src="img/example/house3.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <!-- End page content -->
+        </did>
+        <!-- End page content -->
     </div>
 
 
+
+
     <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-16">
-        <p>Link <a href="http://www.gobiernodesolidaridad.gob.mx" title="MX" target="_blank" class="w3-hover-text-blue">gobiernodesolidaridad.gob.mx        </a></p>
+    <footer class="w3-center w3-padding-16" style="background-color: #0F1630">
+        <p class="w3-left-align w3-container" style="color: white;">
+            <a href="http://www.gobiernodesolidaridad.gob.mx" title="MX" target="_blank" class="w3-hover-text-blue">Gobiernodesolidaridad.gob.mx        
+            </a></p>
     </footer>
 
 </body>
