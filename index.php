@@ -13,7 +13,11 @@
     <h1>Rompi la pagina XD</h1>
     <div class="clear"> Espacio :v</div>
     <a>Se repará en un futuro algo lejano xd</a>
-    <p>Fuente we creeme
+    <p>Fuente we creeme 
+        <span>Weon ponte a practicar PHP</span>
+        <p> Los dedos se te traban :v
+            <p>03/12/2020
+                <p>Maldito 2020 >:v
 
     <div class="clear"></div>
 
